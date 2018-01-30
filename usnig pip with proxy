@@ -1,0 +1,1 @@
+pip install django --proxy=localhost:4444
