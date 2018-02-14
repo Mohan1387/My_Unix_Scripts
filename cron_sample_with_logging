@@ -1,0 +1,10 @@
+MAILTO="mohankumar.manivannan@du.ae"
+1 6 * * * /home/hduser/projectshell/LogTransfer.sh
+30 6 * * * /home/hduser/projectshell/LogsFilterStage1.sh
+20 7 * * * /home/hduser/projectshell/tempshell/sparktest.sh  >> /home/hduser/pyspark_script/sparksubmit.log 2>&1
+30 7 * * * /home/hduser/projectshell/DeleteOldLogs.sh
+00 00 * * * /home/hduser/projectshell/logrotate.sh
+#15 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 * * * /home/hduser/projectshell/eventlogTFR.sh
+#11,26,41,56 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 * * * /home/hduser/projectshell/HPSMAnalyticsTableSqoop.sh
+1 9 * * * /home/hduser/oozie_scripts/usecase_two/mainscript.sh >> /home/hduser/oozie_scripts/usecase_two/logs/mainscript_log.log 2>&1
+#30 15 * * * /home/hduser/projectshell/readusers.sh
