@@ -1,0 +1,56 @@
+-----------------------------------------------------------------
+ActiveDir Logs
+total 22G
+-rw-------. 1 hduser hadoop 11G Apr 27 00:00 eventlog.csv.201704260000.COMPLETED
+-rw-------. 1 hduser hadoop 11G Apr 27 17:24 eventlog.csv
+-----------------------------------------------------------------
+Proxy Logs
+total 6.2G
+drwxr-xr-x. 2 hduser hadoop 4.0K Feb  2 10:00 test
+-rw-------. 1 hduser hadoop 3.1G Apr 26 23:59 eventlog.csv.201704260000.COMPLETED
+-rw-------. 1 hduser hadoop 3.1G Apr 27 17:24 eventlog.csv
+-----------------------------------------------------------------
+AntiVirus Logs
+total 119M
+-rw-------. 1 hduser hadoop 119M Apr 27 17:24 eventlog.csv
+-----------------------------------------------------------------
+DHCP Logs
+total 294M
+-rw-------. 1 hduser hadoop 260M Apr 26 10:21 eventlog.csv.201704251022.COMPLETED
+-rw-------. 1 hduser hadoop  11M Apr 26 23:59 eventlog.csv.201704260000
+-rw-------. 1 hduser hadoop  24M Apr 27 17:24 eventlog.csv
+-----------------------------------------------------------------
+Nac Logs
+total 1.5G
+-rw-------. 1 hduser hadoop 1.3G Apr 26 10:21 eventlog.csv.201704251022.COMPLETED
+-rw-------. 1 hduser hadoop  94M Apr 26 23:59 eventlog.csv.201704260000
+-rw-------. 1 hduser hadoop 105M Apr 27 17:24 eventlog.csv
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+ActiveDir Logs
+total 22G
+-rw-------. 1 hduser hadoop 11G Apr 27 00:00 eventlog.csv.201704260000.COMPLETED
+-rw-------. 1 hduser hadoop 11G Apr 27 17:25 eventlog.csv
+-----------------------------------------------------------------
+Proxy Logs
+total 6.2G
+drwxr-xr-x. 2 hduser hadoop 4.0K Feb  2 10:00 test
+-rw-------. 1 hduser hadoop 3.1G Apr 26 23:59 eventlog.csv.201704260000.COMPLETED
+-rw-------. 1 hduser hadoop 3.1G Apr 27 17:25 eventlog.csv
+-----------------------------------------------------------------
+AntiVirus Logs
+total 119M
+-rw-------. 1 hduser hadoop 119M Apr 27 17:25 eventlog.csv
+-----------------------------------------------------------------
+DHCP Logs
+total 294M
+-rw-------. 1 hduser hadoop 260M Apr 26 10:21 eventlog.csv.201704251022.COMPLETED
+-rw-------. 1 hduser hadoop  11M Apr 26 23:59 eventlog.csv.201704260000
+-rw-------. 1 hduser hadoop  24M Apr 27 17:25 eventlog.csv
+-----------------------------------------------------------------
+Nac Logs
+total 1.5G
+-rw-------. 1 hduser hadoop 1.3G Apr 26 10:21 eventlog.csv.201704251022.COMPLETED
+-rw-------. 1 hduser hadoop  94M Apr 26 23:59 eventlog.csv.201704260000
+-rw-------. 1 hduser hadoop 105M Apr 27 17:25 eventlog.csv
+-----------------------------------------------------------------
