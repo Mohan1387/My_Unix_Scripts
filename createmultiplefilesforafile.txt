@@ -1,0 +1,18 @@
+#can create multiple files from single file based on value in the first column
+#file data
+col1|col2|col3
+A.B|100|20
+A.B|101|20
+A.X|101|30
+A.X|1000|20
+B.Y|1|1
+
+awk -F\| '{print>$1}' filename
+
+This writes each line to a file named after the first column.
+
+How it works:
+
+-F\| sets the field separator to |.
+
+print>$1 prints the current line to a file whose name is the first field
