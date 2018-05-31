@@ -1,0 +1,12 @@
+# path tripdata had multiple files like 201409, 201408
+
+for f in tripdata/2014*;
+do 
+
+name=`basename $f`;
+
+echo "processing file : $name";
+# -d"," is the wildcard to remove the first column from the file
+cut -d"," -f2- $f > tripdata/new/$name;
+
+done
