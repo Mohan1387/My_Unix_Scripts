@@ -66,19 +66,19 @@ else
 
  if [ $i == 1 ];
  then
- (echo "same so not receving PROXY log...")| mailx -v -s "Not receving Log Alert."$currDate" " -r "<sochadoop@du.ae>"  mohankumar.manivannan@du.ae,Manickasundaram.Murugappan@du.ae
+ (echo "same so not receving PROXY log...")| mailx -v -s "Not receving Log Alert."$currDate" " -r "<sochadoop@du.ae>"  vannan@mail.com,appan@mail.com
  elif [ $i == 2 ];
  then
- (echo "same so not receving EXCHANGE log...") | mailx -v -s "Not receving Log Alert."$currDate" " -r "<sochadoop@du.ae>"  mohankumar.manivannan@du.ae,Manickasundaram.Murugappan@du.ae
+ (echo "same so not receving EXCHANGE log...") | mailx -v -s "Not receving Log Alert."$currDate" " -r "<sochadoop@du.ae>"  vannan@mail.com,appan@mail.com
  elif [ $i == 3 ];
  then
- (echo "same so not receving NAC log...") | mailx -v -s "Not receving Log Alert."$currDate" " -r "<sochadoop@du.ae>"  mohankumar.manivannan@du.ae,Manickasundaram.Murugappan@du.ae
+ (echo "same so not receving NAC log...") | mailx -v -s "Not receving Log Alert."$currDate" " -r "<sochadoop@du.ae>" vannan@mail.com,appan@mail.com
  elif [ $i == 4 ];
  then
- (echo "same so not receving CITRIX log...") | mailx -v -s "Not receving Log Alert."$currDate" " -r "<sochadoop@du.ae>"  mohankumar.manivannan@du.ae,Manickasundaram.Murugappan@du.ae
+ (echo "same so not receving CITRIX log...") | mailx -v -s "Not receving Log Alert."$currDate" " -r "<sochadoop@du.ae>"  vannan@mail.com,appan@mail.com
  elif [ $i == 5 ];
  then
- (echo "same so not receving OWA log...") | mailx -v -s "Not receving Log Alert."$currDate" " -r "<sochadoop@du.ae>"  mohankumar.manivannan@du.ae,Manickasundaram.Murugappan@du.ae
+ (echo "same so not receving OWA log...") | mailx -v -s "Not receving Log Alert."$currDate" " -r "<sochadoop@du.ae>"  vannan@mail.com,appan@mail.com
  fi
 
 fi
